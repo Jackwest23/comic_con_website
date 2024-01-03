@@ -1,0 +1,141 @@
+* {
+    margin: 0;
+    
+}
+
+.header {
+    min-height: 100vh;
+    width: 100%;
+    background-image: linear-gradient(rgba(4, 9, 30, 0.7), rgba(4, 9, 30, 0.7)), url(images/1.jpg);
+    background-position: center;
+    background-size: cover;
+    position: relative;
+
+
+}
+
+
+
+nav {
+    display: flex;
+    padding: 2% 6%;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+nav img {
+    width: 150px;
+}
+
+.nav-links {
+    flex: 1;
+    text-align: right;
+}
+
+.nav-links ul li {
+    list-style: none;
+    display: inline-block;
+    padding: 8px 12px;
+    position: relative;
+}
+
+.nav-links ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 13px;
+}
+
+.nav-links ul li::after {
+    content: '';
+    width: 0%;
+    height: 2px;
+    background: #f44336;
+    display: block;
+    margin: auto;
+    transition: 0.5s;
+}
+
+.nav-links ul li:hover::after {
+    width: 100%;
+}
+
+.container {
+    color: white;
+
+}
+
+
+
+.container h1 {
+    font-size: 48px;
+    padding: 15px;
+
+}
+
+#P1 {
+    position: absolute;
+    font-size: 24px;
+    top: 5%;
+    left: 60%;
+
+}
+
+#P2 {
+    position: absolute;
+    font-size: 24px;
+    padding: 15px;
+    top: 7%;
+    left: 1%;
+}
+
+#forms {
+    padding: 5px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    align-content: center;
+    text-align: center;
+}
+
+.form {
+    color: #fff;
+    font-size: 25px;
+    align-items: center;
+}
+
+#BigText {
+    padding: 40px;
+    size: 40px;
+}
+
+#Ln {
+    padding-right: 41%;
+    text-align: justify;
+}
+
+#LL {
+    padding-right: 43%;
+}
+
+#En {
+    padding-right: 50%;
+}
+
+
+
+#Un {
+    padding-right: 42%;
+}
+
+#Pw {
+    padding-right: 43%;
+}
+
+#sub {
+
+    padding: 12px;
+    size: 15px;
+}
+

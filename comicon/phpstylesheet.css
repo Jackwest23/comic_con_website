@@ -1,0 +1,50 @@
+* {
+    margin: 0;
+    color: #fff;
+
+}
+
+.header2 {
+    min-height: 100vh;
+    width: 100%;
+    background-image: linear-gradient(rgba(4, 9, 30, 0.7), rgba(4, 9, 30, 0.7)), url(images/2.jpg);
+    background-position: center;
+    background-size: cover;
+    position: relative;
+
+
+}
+
+.container2 {
+    color: white;
+
+}
+
+.container2 h1 {
+    font-size: 48px;
+    padding: 15px;
+
+}
+
+#P3 {
+    position: absolute;
+    top: 35%;
+    left: 65%;
+}
+
+.frame {
+    width: 50%;
+    border: 1px solid white;
+    position: absolute;
+    top: 20%;
+    left: 1%;
+    font-size: 20px;
+    font-family: cursive;
+}
+
+.image {
+    position: absolute;
+    top: 33%;
+    left: 2%;
+
+}
